@@ -1,0 +1,29 @@
+body {
+    margin: 0;
+    padding:0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+.nav {
+    background-color: darkgrey;
+    color:cornsilk;
+    list-style: none;
+    padding: 35px 35px 35px 35px
+}
+
+.nav > li { 
+display: inline-block;
+border-color: darkslateblue;
+text-align: center;
+padding-right: 50px;
+
+}
+
+.nav > li > a {
+    text-decoration: none;
+    color:white;
+    }
+
+.nav > li > a:hover {
+    color:blue; 
+}
