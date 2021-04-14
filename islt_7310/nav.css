@@ -14,6 +14,7 @@ body {
 .nav > li { 
 display: inline-block;
 border-color: darkslateblue;
+text-align: center;
 padding-right: 50px;
 
 }
