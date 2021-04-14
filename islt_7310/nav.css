@@ -13,13 +13,14 @@ body {
 
 .nav > li { 
 display: inline-block;
+border-color: darkslateblue;
 padding-right: 50px;
 
 }
 
 .nav > li > a {
     text-decoration: none;
-    color:cornsilk;
+    color:white;
     }
 
 .nav > li > a:hover {
