@@ -5,8 +5,8 @@ body {
 }
 
 .nav {
-    background-color: darkgrey;
-    color:cornsilk;
+    background-color: turquoise;
+    color:rgb(214, 18, 172);
     list-style: none;
     padding: 35px 35px 35px 35px
 }
