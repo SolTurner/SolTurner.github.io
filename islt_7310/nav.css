@@ -6,14 +6,14 @@ body {
 
 .nav {
     background-color: turquoise;
-    color:rgb(214, 18, 172);
     list-style: none;
-    padding: 35px 35px 35px 35px
+    padding: 1em 0;
+    
+    
 }
 
 .nav > li { 
 display: inline-block;
-border-color: darkslateblue;
 text-align: center;
 padding-right: 50px;
 
@@ -21,6 +21,7 @@ padding-right: 50px;
 
 .nav > li > a {
     text-decoration: none;
+    font-weight: bold;
     color:white;
     }
 
