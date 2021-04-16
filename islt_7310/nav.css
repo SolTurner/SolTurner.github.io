@@ -16,6 +16,9 @@ body {
 
 .nav > li { 
 text-align: center;
+text-align: center;
+display: inline-block;
+padding: 35px 35px 35px 35px;
 
 
 }
@@ -24,10 +27,7 @@ text-align: center;
     text-decoration: none;
     font-weight: bold;
     color:rgb(207, 218, 146)158, 164, 167);
-    text-align: center;
-    display: inline-block;
-    padding: 35px 35px 35px 35px
-
+   
     }
 
 .nav > li > a:hover {
