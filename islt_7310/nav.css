@@ -8,6 +8,7 @@ body {
 .nav {
     background-color: #88aecc;
     list-style: none;
+    justify-content: center;
     
 }
 
@@ -24,7 +25,8 @@ padding-right: 50px;
     color:rgb(123, 197, 207);
     text-align: center;
     display: flex;
-    justify-content: center;
+    width: 175px;
+    
     
     }
 
