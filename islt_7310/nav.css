@@ -20,6 +20,12 @@ body {
 text-align: center;
 display: inline-block;
 padding-right: 50px;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+font-size: 14px;
+list-style: none;
+position: relative;
+
+
 
 }
 
@@ -32,6 +38,4 @@ padding-right: 50px;
     color:#db79cb; 
 
 }
-
-
-
+.nav
