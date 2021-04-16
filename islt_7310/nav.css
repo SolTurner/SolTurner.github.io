@@ -7,7 +7,7 @@ body {
 
 
 .nav {
-    background-color: #1cb6d1;
+    background-color: #73c4d3;
     list-style: none;
     justify-content: center;
     width: fit-content;
@@ -25,7 +25,7 @@ padding: 35px 35px 35px 35px;
     text-decoration: none;
     text-align: center;
     font-weight: bold;
-    color:rgb(207, 218, 146)158, 164, 167);
+    color:rgb(182, 196, 105)158, 164, 167)
     display:inline-block;
     }
 
