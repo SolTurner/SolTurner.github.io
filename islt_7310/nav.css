@@ -1,6 +1,6 @@
 body {
     margin: 0;
-    padding:0;
+    padding: 15x 15px 15px 25px
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
     
 }
@@ -32,6 +32,7 @@ padding: 0;
 
 .nav > li > a:hover {
     color:#d4d9db; 
+
 }
 
 
