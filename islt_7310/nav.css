@@ -16,7 +16,8 @@ body {
 
 .nav > li { 
 text-align: center;
-display: inline-block;
+width: 150px;
+display: inline;
 padding: 35px 35px 35px 35px;
 }
 
