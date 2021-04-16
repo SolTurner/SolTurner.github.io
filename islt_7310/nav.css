@@ -44,13 +44,24 @@ position: relative;
     position:relative;
     text-align: center;
     font-weight: bold;
-    color: #ffffff
+    color: #ffffff;
 }
 .nav a {
     text-decoration: none;
     display: inline-block;
     padding: 15px 15px 15px 15px;
     width: 150px;
-    margin: 2 px
-    
+    margin: 2 px;   
+}
+.nav ul>li ul {
+    position: absolute;
+    top: 100%;
+    display: none;
+}
+.nav ul ul li {
+    float: none;
+}
+
+.nav>ul>li:hover>ul {
+    display:block;
 }
