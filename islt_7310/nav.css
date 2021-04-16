@@ -24,9 +24,6 @@ font-family: Verdana, Geneva, Tahoma, sans-serif;
 font-size: 14px;
 list-style: none;
 position: relative;
-
-
-
 }
 
 .nav > li > a {
@@ -38,4 +35,22 @@ position: relative;
     color:#db79cb; 
 
 }
-.nav
+.nav >ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.nav >ul li {
+    position:relative;
+    text-align: center;
+    font-weight: bold;
+    color: #ffffff
+}
+.nav a {
+    text-decoration: none;
+    display: inline-block;
+    padding: 15px 15px 15px 15px;
+    width: 150px;
+    margin: 2 px
+    
+}
