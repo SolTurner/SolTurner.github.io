@@ -96,12 +96,11 @@ position: relative;
 }
 
 .nav >ul li ul li a:hover {
-    background-color: #db79cb
+    background-color: #73c4d3
     
 }
 
 
-
 .nav>ul>li:hover>ul {
-    display:block;
+    display: block;
 }
