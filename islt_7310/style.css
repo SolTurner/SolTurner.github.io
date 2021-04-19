@@ -1,3 +1,22 @@
+body {
+    margin: 0;
+    padding: 15x 15px 15px 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 300;
+    }
+.container{
+
+        width: 80%;
+        margin: 0;
+    
+.title {
+    color:#069;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    padding-left: 3rem;
+    padding-bottom: 3rem;
+     }
+
+
 header {
     background-color: #ffffff;
     padding: 30px;
@@ -39,9 +58,5 @@ h2 {
 p{
     text-align: center;
 }
-main p:first-child ::first-letter {
-    font-style: italic;
-}
-p::firs-line {text-indent:2em;
-}
+
 
