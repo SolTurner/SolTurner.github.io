@@ -1,0 +1,103 @@
+<!DocType html>
+<html lang="en">
+<head>
+<title> Solveig Greene's Website</title>
+<meta charset="utf-8">
+<meta name= "viewport" content="width=device-width, initiak-scale=1">
+<style>
+   * {
+        box-sizing: border-box;
+    }
+    body{
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    /* style the header */
+header {
+    background-color: #666;
+    padding: 30px;
+    text-align: center;
+    font-size: 35px;
+    color: white;
+}
+/* Create two columns/boxes that floats next to each other */
+nav {
+    float: left;
+    background: #ccc;
+    padding: 20px;
+}
+/*Style the list inside the menu*/
+nav ul{
+    list-style-type: none;
+    padding: 0;
+
+}
+
+article{ 
+    float: left;
+    padding: 20px;
+    width: 70%;
+    background-color: #f1f1f1;
+    height: 300px; /* only for demonstration, should be removed */
+}
+/* Clear floats after the columns */
+section::after {
+    content: "";
+    display: table;
+    clear:both;
+}
+/* Style the footer */
+footer{
+    background-color: #777;
+    padding: 10px;
+    text-align: center;
+    color: white;
+}
+/* Responsive layout-makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+@media (max-width: 600px){
+    nav, article {
+        width: 100%;
+        height: auto;
+    }
+}
+</style>
+</head>
+<body>
+    <h2> Reflection</h2>
+    <p> Below you can read some of my personal thoughts on my career.</p>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#">London</a></li>
+                <li><a href="#">Paris</a></li>
+                <li><a href="#">Tokyo</a></li>
+            </ul>
+        </nav>  
+    </header>
+    
+    <section>
+        <h2>Reflection</h2>
+        
+        <article>
+            <h1>London</h1>
+            <p>My personal teaching philosophy has always been to create a learning culture that helps students  
+                develop understanding and respect of one another so that all participants learn from one another, gain a 
+                growth mindset, and to develop habits of a life-long learner. Throughout my career thus far, I have 
+                taken every advantage I have been given to grow and learn. The professional developments, learning 
+                opportunities, and degree advances have helped me model what I want my students to achieve as they get older. </p>
+                As I began teaching at age 23, I never imagined that I would have stayed at one school in Baton Rouge, 
+                Louisiana throughout my career. I always dreamed of traveling the world and teaching at International schools 
+                during my career. One major reason for this is that I traveled a lot when I was little with my family. My father 
+                was an educator that traveled the world. I was born in India, moved to Japan, Brazil, Florida, Massachusetts, 
+                Tennessee, and finally landed in Louisiana. While I stayed in Louisiana for college, my family moved onto Amsterdam 
+                and now are located in the Philippians. When I traveled the world, I was exposed to many cultures that triggered my 
+                thought process. I have a gained a great appreciation and understanding of many cultures. There is something so 
+                exhilarating to me about learning how different cultures approach aspects of life that are different than my own. 
+                As my life did not allow me to follow through with my dream, I have found ways to stimulate my mind and grow my 
+                mindset right from my hometown. </p>
+        </article>
+        </section>
+        <footer>
+            <p>&copy;Solveig Lassen-Greene smlgyz@umsystem.edu</p>
+        </footer>
+</body>
+</html>

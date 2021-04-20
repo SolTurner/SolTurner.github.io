@@ -5,14 +5,14 @@
 
  .nav {
         background-color: #73c4d3;
-        position: fixed;
+        position: relative;
         list-style: none;
         text-align: center;
         justify-content: center;
         padding: 20px 0px 20px 0;
         width: 100%;
-        height: 60px;  
-        float: lef;
+        height: 30px;  
+        float: left;
         }
 
 .nav ul {
@@ -22,7 +22,7 @@ margin: 0px;
 padding: 0;
 list-style: none;
 justify-content:space-evenly;
-position: relative;
+overflow: hidden;
 }
 
 .nav li{
@@ -31,12 +31,16 @@ position: relative;
     position: relative;
     text-align: center;   
 }
+.nav li {
+    float: left;
+}
 
 nav ul li{
     margin: 0;
     padding: 0rem;
     position: relative;
-    
+    float: left;
+   
 }
 
 a{
@@ -50,6 +54,7 @@ nav ul li a{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 1.5rem;
     padding: 0.8rem 1.3rem;
+    text-align: center;
 }
 
 a:hover {
@@ -61,15 +66,21 @@ nav ul>li ul{
     position: absolute;
     top: 100px;
     left: 0rem;
-    background-color: #ffffff;
     padding: 0rem;
+    float:left;
 }
-nav uo ul li{
+nav ul ul li{
     float: none;
+}
+nav ul ul{
+    display:none;
+    position: absolute;
+    top: 100%;
 }
 
 nav ul li ul li a {
     padding: 0.5rem;
+    width: 800px;
 }
 nav ul li:hover ul {
     display: block;
