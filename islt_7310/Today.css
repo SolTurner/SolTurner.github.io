@@ -1,0 +1,131 @@
+body{
+    margin: 0;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.header {
+    padding: 1.5em;
+    background-color:#73c4d3;
+    color: #ffffff;
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+}
+h1 {
+    
+}
+.nav a {                                /* a elements in nav */
+    color: #ffffff;
+    text-decoration: none;
+    display: flex;
+    transition: all 0.3s ease-out;
+}
+
+.nav a:hover {
+    color: #069;
+    transform:rotate (6deg);
+
+}
+
+.nav{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.nav li{
+    margin-left: 20px;
+}
+
+.nav li li{
+    position: absolute;
+    left: -999em;
+}
+.nav li:hover li{
+    left: auto;
+}
+
+.hero{
+    background-color: #caeaf0;
+    padding: 30px 25px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.hero-inner {
+    max-width:760px;
+    
+}
+
+.hero h1{
+    color: rgb(216, 88, 233);
+    font-weight: normal;
+    font-size: 4rem;
+    margin: 0;
+}
+
+.hero p {
+    font-size: 1 rem;
+    line-height: 1.6;
+}
+
+.button {
+    background-color: #73c4d3;
+    color: #ffffff;
+    text-decoration:none;
+    padding: 12px 20px;
+    border-radius: 8px;
+    font-size: 1.8rem;
+    display: inline-block; 
+    
+}
+
+.features {
+    background-color:#d7f2f8;
+    padding: 60px 45px;
+    
+}
+
+.features-inner {                           /* Cool Features */
+    max-width: 650px;
+    margin: 0 auto;
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    grid-column-gap: 25px;
+}
+
+.featured-item h1 {
+    text-align: left;
+    color: rgb(216, 88, 233);
+    padding: 1em;
+    font-variant: small-caps;
+    font-weight: lighter;
+    justify-content:left;
+    margin: 0;
+}
+
+.featured-item h3 {
+    color:#069;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.5rem;
+    font-weight: normal;
+    margin: 0;
+}
+
+.featured-item p{
+    margin: 0;
+    line-height: 1.6;
+    color:black;
+}
+
+.footer {
+    text-align: center;
+    padding: 20px 0;
+    color: #ffffff;
+    background-color: #73c4d3;
+    font-size: .9rem;
+    
+}
+

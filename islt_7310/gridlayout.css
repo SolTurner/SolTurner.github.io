@@ -1,0 +1,92 @@
+
+/* the styles for the body */
+body{
+    display:grid;                    /* make the body a grid */
+    grid-template: repeat (4, auto) / 1fr;
+                                    /* define 4 rows and 1 column */
+    grid-gap: 1.5e;                 /* define the gap between grid areas */
+    grid-template-areas:           /* define the template areas */
+            "head"
+            "nav"
+            "main"
+            "foot";
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 300;
+}
+
+/* the styles for the header */
+header{
+    grid-area: head;                /* place the header in a grid area */
+    text-align: center;
+    font-size: 30px;
+    padding: 30px;
+}
+
+
+/* the styles for the main element */
+main{
+
+    margin: 0.2%;
+    grid-area: main;                   /* place the main element in a grid area */
+    display: grid;                    /* makes the main element a grid */
+    grid-template: auto / 1fr 40%;   /*define one row and two columns */
+    grid-gap: 2%;                    /* define the gap between grid areas */
+    grid-template-areas:            /* definethe template areas */
+          "arti side";
+}
+
+/* the styles for the article and sidebar */
+article{
+    grid-area: arti;                /*place the article in a grid area */
+    background-color: rgb(190, 223, 231);
+}
+aside{
+    max-height: 100px;              /* to limit background */
+    min-height: 120px;              /* to limit background */
+    padding: 5%;                    /* based on width of the grid area */
+    grid-area: side;                /*place the aside in a grid area */
+}
+.img-face-shot {
+    width: 270px;
+    height: 100px;
+    background-image: url(img/faceshot.jpeg);
+    background size:
+}
+
+/* the styles for the  footer */
+footer{
+
+    grid-area: foot;                /*place the footer in a grid area */
+}
+/* the media query for mobile landscape to table portrait */
+@media only screen and (max-width:767px) {
+    body{
+
+        grid-gap: 0;      /* no space between the menu and the main */
+    }
+    header {
+        padding-bottom: 1.5em;                          /* because there's no row gap */
+        display: grid;                                  /* make the header a grid */
+        grid-template: repeat (3, auto) / 1fr;         /* 3 rows and 1 column */
+        grid-gap: .3em;                                /* gap between rows */
+        justify-items: center;                         /* center grid items horizontally */
+    }
+    #mobile_menu {
+        display: block;
+        grid-area: navi;                        /* place the mobile menu in a grid area */
+    }
+    main {
+        margin: 0;
+        grid-template: auto auto / 1fr;             /* 2 rows and 1 column */
+        grid-gap: 2%;                               /* gap between rows */
+        grid-template-areas:                       /* template areas */
+            "side"
+            "arti";
+    }
+    article {
+        margin: 1.2em 2%;
+    }
+    aside {
+        padding: 1em 2%;
+    }
+}
