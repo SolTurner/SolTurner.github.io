@@ -165,16 +165,17 @@ body{
     margin: 0;
 }
 .hero h3{
-    color: #069
+    color: #069;
 }
-.hero p {
+.hero p {                               /* About Me PARAGRAPH */
     font-size: 1 rem;
     line-height: 1.6;
+    
 }
 
 .button {
     background-color: #73c4d3;
-    color: #ffffff;
+    color: rgb(216, 88, 233);
     text-decoration:none;
     padding: 12px 20px;
     border-radius: 8px;
@@ -209,12 +210,13 @@ body{
     margin: 0;
 }
 
-.featured-item h3 {
-    color:#069;
+.featured-item h3 {                                         /* VIDEO RESUME TITLE */
+    color: rgb(216, 88, 233);
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 1.5rem;
     font-weight: normal;
     margin: 0;
+    text-align: center;
 }
 
 .featured-item p{
@@ -223,10 +225,11 @@ body{
     color:black;
 }
 
+
 .footer {
     text-align: center;
     padding: 20px 0;
-    color: #ffffff;
+    color: ffffff;
     background-color: #73c4d3;
     font-size: .9rem;
     
