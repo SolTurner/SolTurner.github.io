@@ -1,0 +1,56 @@
+.nav a {                                /* a elements in nav */
+    color: black;
+    text-decoration: none;
+    display: flex;
+    transition: all 0.3s ease-out;
+    padding: 22px 14px;
+}
+
+.nav a:hover {
+    color: #069;
+    transform:rotate (6deg);
+
+}
+
+.nav{
+    list-style: none;
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    
+}
+
+.nav li{
+    
+    display: block;
+    
+}
+
+.nav li li{                                     /* drop-down */
+    position: relative;
+    text-decoration: none;
+    left: -999em;
+    list-style: none;
+
+}
+.nav li li a{
+    display: block;
+    float: none;
+    color:  rgb(216, 88, 233);
+    padding: 12px 16px;
+    text-decoration: none;
+    text-align: left;
+    position: absolute;
+    }
+
+
+.nav li:hover li{
+    left: auto;
+    text-decoration: none;
+}
+.dropdown {
+    float: left;
+    overflow: visible;
+    display: block;
+}
