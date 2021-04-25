@@ -4,8 +4,8 @@
         <meta charset="utf-8">
         <meta name= "viewport" content="width=device-width, initial-scale=1.0">
         <title>Solveig Greene's Website</title>
-        <link rel= "stylesheet" href= "SUNDAYSTYLE.css">
-        <link rel= "stylesheet" href= "Sundaynav.css">
+        <link rel= "stylesheet" href="STYLE1.CSS">
+        <link rel= "stylesheet" href= "nav.css">
         <link rel="preconnect" href="https://fonts.gstatic.com">
         <link href="https://fonts.googleapis.com/css2?family=Encode+Sans+Semi+Expanded:wght@300&display=swap" rel="stylesheet">
         
@@ -25,8 +25,6 @@
         }
 
 
-      
-
         h1 {
             color:rgb(216, 88, 233);
             text-align: center;
@@ -36,19 +34,19 @@
             text-align: center;
         }
 
-        video {
-            width: 100%;
-            margin: 0;
-        }
         </style>     
 </head>
 
 <body>   
     <header>
-       <h1 class="logo">Solveig Greene</h1>
-       <input type= "checkbox" id= "nav-toggle" class="nav-toggle">
-            <nav>
-                <ul>
+        <div id="header">
+            <div class="header">
+        <h1>Solveig Greene</h1>
+        </div>
+
+        <div id="nav">
+            <ul class="nav">
+        <ul>
             <li><a href= "index.html">Home</a><li>
             <li><a href= "about.html">About</a></li> 
             <li><a href= "learn.html">Learn</a>
@@ -57,27 +55,24 @@
                  <li><a href="Resource2.html">Resource 2</a></li>
                  <li><a href="Resource3.html">Resource 3</a></li>  
             </ul>
+        </div>
+           </li>
             <li><a href= "reflection.html">Reflection</a></li>
             <li><a href= "#contact">Contact</a></li>
         </ul>
+        </div>
     </nav>
-    <label for= "nav-toggle" class="nav-toggle-label">
-        <span>&#9776;</span>
-    </label>
 
 </header>
+</div>
 
-
+<body>
 <main>
-    <section>
-        <div class="container"> 
-            <div class="col"></div>
-                <div class="col"></div>   
-                <div class="col"></div>
-            <div class="col"></div> 
-      <div class="col">
-    <div class= "col">
-        <h1> About Me</h1><br>
+
+  <div class="hero">
+      <div class="hero-inner">  
+            
+     <h1> About Me</h1>
     <p> My name is Solveig Greene. I am a teacher, wife, and mom. I have two beautiful boys of my own and one amazing step-son. The boys in my house keep me super busy. We enjoy 
         walking, riding bikes, and taking care of our dog, chickens and bees. I live in Baton Rouge, Lousiana. The weather is almost always hot but we still spend most of our time outdoors.</p><br>
     <p>I am an elementary teacher. I have a bachelor's degree from LSU in elementarty education and a Master's degree from Southeastern University in Educational Leadership.
@@ -93,33 +88,37 @@
             "Never Stop Learning; For When We Stop Learning, We Stop Growing" 
             -Jack Lewman
         </h3><br>
-    <div class="container">
-            <div class="button">
-                <a href="Lassen-GreeneResume.pdf"class="button"><h1>My Resume</h1></a> 
-            <div class="col">
+    </div>
+</p>
+</div>
 
-             <h2>VIDEO RESUME</h2>
-                <div class="iframe-container">
+    <div class="features">
+        <div class="features-inner">
+        <div class= "featured-item">
+            <a href="Lassen-GreeneResume.pdf"><h1>My Resume</h1></a> 
+    </div>
+
+    <div class="featured-item">
+    
+        <h2>VIDEO RESUME</h2>
+                <div class="iframe-container"></div>
                     <iframe src="https://player.vimeo.com/video/526982834" width="640" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
                         <p><a href="https://vimeo.com/526982834">Lassen-GreeneVideo Resume</a> from <a href="https://vimeo.com/user134472914">Solveig Greene</a> on <a href="https://vimeo.com">Vimeo</a>. </p>
                     </div>
             
-            <div class= "col"></div>
-            <div class= "col"></div>
-            <div class= "col"></div>
-            <div class= "wrapper"></div>
-            </div>
-        </section>
-    </main>
-<footer>
-    <div class="footer">
+    </div>
+</body>
+</main>
+</div>
+
+<div class="footer">
         <p>
             &copy; 2021 Solveig Greene</p>
             <p>smlgyz@umsystem.edu</p>
     </div>
 
 </footer>
-</body>
+
 </html>
 
 
