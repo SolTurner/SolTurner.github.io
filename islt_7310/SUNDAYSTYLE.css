@@ -1,0 +1,39 @@
+@font-face{
+    font-family: 'Encode Sans Semi Expanded', sans-serif;
+    @import url('https://fonts.googleapis.com/css2?family=Encode+Sans+Semi+Expanded:wght@300&display=swap')
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family:'Encode Sans Semi Expanded', sans-serif;};
+
+.title {
+    color: black;
+
+}
+
+.container {
+    margin: 0rem 0rem 10rem 5rem;
+    display:grid;
+    grid-template-columns: 1 fr 200px 80ch 1 fr;
+    gap: 25px;
+}
+@media (max-width:600px) {
+    .conatiner {
+        margin: 0rem 0rem 5rem 2rem;
+        display: grid;
+        grid-template-columns: 0 0 300px 0px;
+        grid-template-rows: 0fr 1fr;
+        gap: 1px;
+    } }
+
+    .conatiner >* {
+        padding-top: 10px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    
