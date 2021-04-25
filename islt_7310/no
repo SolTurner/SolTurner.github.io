@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <head>
+        <meta charset="utf-8">
+        <meta name= "viewport" content="width=device-width, initial-scale=1.0">
+        <title>Solveig Greene's Website</title>
+        <link rel= "stylesheet" href="style.css">
+        <link rel= "stylesheet" href="nav.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Encode+Sans+Semi+Expanded:wght@300&display=swap" rel="stylesheet">
+        
+        <style>
+            body{
+            font-family: 'Encode Sans Semi Expanded', sans-serif:
+
+        }
+            
+            
+
+        </style>
+    
+        
+        </head>
+    <div id="header">
+        <div class="header">
+    <h1> Solveig Greene</h1>
+    </div>
+    <div id="nav">
+        <ul class="nav">
+            <li><a href= "index.html">Home</a><li>
+            <li><a href= "about.html">About</a></li> 
+            <li><a href= "learn.html">Learn</a>
+        <div class="dropdown">  
+            <ul> 
+                <li><a href="#">Link 1</a></li>
+                <li><a href="#">Link 2</a></li>
+                <li><a href="#">Link 3</a></li>  
+            </ul>
+        </div>
+
+        </li>
+        <li><a href= "reflection.html">Reflection</a></li>
+        <li><a href= "#contact">Contact</a></li>
+        </ul>
+    </div>
+    </nav>
+
+</div>
+<body> 
+<main>
+
+<div class="hero">
+    <div class= "hero-inner">
+        <h1>Want to Know More?</h1>
+    <p><div><p>I am thrilled that you want to learn more about me. 
+        Explore the 3 drop down links to view the resources to get to know me better. 
+        <blockquote>
+            1. Specialist Degree in Learning Technlogy and Design 
+            2. Mentoring Program
+            3. Leadership Program
+
+        </blockquote> 
+        Resource 2
+    </p></div>
+        
+    </div>
+    </p>
+
+</div>
+
+<div class="features">
+    <div class="features-inner">
+        <div class="featured-item">
+           
+             
+        </div>
+    <div class="featured-item">
+        <h3></h3>
+        <div class="iframe-container"></div>
+
+        </div>
+        
+        
+    </div>
+    </div>
+</main>
+</div>
+</div>
+
+<div class="footer">
+    <p>
+        &copy; 2021 Solveig Greene</p>
+        <p>smlgyz@umsystem.edu</p>
+</div>
+</body>
+
+</div>
