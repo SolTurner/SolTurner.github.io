@@ -1,21 +1,22 @@
+@font-face {
+    font-family: 'Barlow Condensed', sans-serif;
+    src: url(Barlow-Light.ttf);
+}
 * {
     margin: 0;
     padding: 0;
 }
 
-@font-face{
-    font-family: 'Encode Sans Semi Expanded', sans-serif;
-    @import url('https://fonts.googleapis.com/css2?family=Encode+Sans+Semi+Expanded:wght@300&display=swap')
-}
 
 
 body {
-    font-family:'Encode Sans Semi Expanded', sans-serif;};
+    font-family:'Barlow Condensed', sans-serif;
+}
 
 .title {
     color: black;
     padding-top: 30px;
-
+    font-family: 'Barlow Condensed', sans-serif;
 }
 
 .container {
@@ -23,10 +24,9 @@ body {
     display:grid;
     grid-template-columns: 1 fr 200px 80ch 1 fr;
     gap: 25px;
-    padding-top: 40px;
-    color: 
-    
+    padding-top: 40px;  
 }
+
 @media (max-width:640px) {
     .conatiner {
         margin: 0rem 0rem 5rem 2rem;
@@ -55,4 +55,21 @@ body {
         background-color: #73c4d3;
         font-size: .9rem;
     }
-    
+    @media print{
+     
+        .header h2{
+            color: black!important;
+            margin: 1px;
+        }
+        .body {
+            margin:0;
+            padding: 0;
+            color: black;
+            margin: 1px;
+        }
+        .footer{
+            background-color: none;
+            color:black;
+            font-family: 'Barlow Condensed', sans-serif;
+            margin: 1px;
+        }
