@@ -2,26 +2,48 @@
 <!DOCTYPE html>
 <html lang="en-US">
 <head>
-     <meta charset="utf-8"><title>About Me</title>
+     
      <meta name="viewport" content="width=device-width initial-scale=1.0">
+     <meta charset="utf-8"><title>About Me</title>
+     <link rel="preconnect" href="https://fonts.gstatic.com">
+     <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,300;1,300&family=Nanum+Myeongjo:wght@700&family=Noto+Serif+SC:wght@700&family=Noto+Serif:wght@700&display=swap" rel="stylesheet">
      <link rel="stylesheet" href="Sundaynav.css">
      <link rel="stylesheet" href="SUNDAYSTYLE.css">
+     <link rel="shortcut icon" type="image/x-icon" href="hnet.com-image.ico">
      
      <style>
    a { color: #069;
-
     text-decoration: none;}
     .logo {
         color: #ffffff;
+        font-family:'Barlow Condensed', sans-serif;
+    }
+    .body{
+        align-items: center;
+        justify-content: right;
+        padding-top: 50%;
     }
     .title {
         color:#069;
+        font-family: 'Barlow Condensed', sans-serif;
+        padding: 0;
+        padding-top: 10%;
+        text-align: center;
     }
-
+    .paragraph{
+        line-height: 1.5;
+        padding-top: 0px;
+        text-align: center;
+        padding-right: 10%;
+    }
     .h2 {
         padding-top: 60px;
+        padding-bottom: 10px;
+        text-align: center;
         color:#069;
+        font-family: 'Barlow Condensed', sans-serif;
     }
+
     .wrapper {
          margin: 0 auto;  
     }
@@ -38,21 +60,32 @@
         position:relative;
         width:100%;
         overflow: hidden;
-        padding-top: 80%;
+        padding-top: 40%;
+        padding-bottom: 40%;
+        justify-content: right;
     }
 
     .responsive-iframe{
         position: absolute;
-        top: 500px;
+        top: 940px;
         left: 0;
         bottom: 0;
         right: 0;
-        width: 100%;
+        width: 50%;
         height: 100%;
+        align-items: right;
+    }
+    .footer {
+        text-align: center;
+        color: ffffff;
+        padding: 20px 0;
+        color: ffffff;
+        background-color: #73c4d3;
+        font-size: .9rem;
     }
 
 
-   
+
      </style>
 </head>
 <body>
@@ -85,7 +118,7 @@
                     <h2 class="title">About Me</h2>
                    <div class="col"></div>
                <div class="col"></div>	
-         <div class="col"><p>I hold a Bachelor's degree in Elementary Education (Grades 1-8) from LSU and a 
+         <div class="paragraph"><p>I hold a Bachelor's degree in Elementary Education (Grades 1-8) from LSU and a 
              Master's degree in Educational Leadership from Southeastern University. I currently attend the 
              University of Missouri to gain my specialist degree in Learning Technologies and Design 
              (expected graduation date is Spring 2022). For the past fourteen years I have taught in the 
@@ -101,19 +134,25 @@
              I am currently enrolled in APEL’s mentor teacher program and plan on being certified by the summer of 2021. 
              This year, I was also accepted into the East Baton Rouge Parish Leadership program. My completion date is 
              June of 2021.</p><br>
+             <h3 style="text-indent: 1em; color: #069;">Current Degree Program:</h3>
+             <ul class= "Programs">
+                <li>University of Missouri, School of Information Science & Learning Technologies</li>
+                <li>Education Specialist Degree in Learning Technologies and Design</li>
+                <li>Anticipated Graduation Date, May 2022</li>   
+            </ul>
           <p></p><br>
 
-          <p></p><br>
+    <div class="resume">
        <a href="Lassen-GreeneResume.pdf" target="resume"><h1>My Resume</h1></a></div>
-       
+    </div>   
        <div class="iframe-container"></div>
-       <h2>VIDEO RESUME</h2>
+       <h2 style= "text-align: center; color: #069; padding-top: 0px;"></h2>
        <div class="video">
            <iframe class="responsive-iframe" src="https://player.vimeo.com/video/526982834" width="320" height="940" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
                <p><a href="https://vimeo.com/526982834"></a><a href="https://vimeo.com/user134472914"></a><a href="https://vimeo.com"></a></p>
             </div>
             </div>
-     
+     <div class="col"></div>
      <div class="col"></div>
      <div class="col"></div>
      <div class="wrapper"></div>
@@ -121,8 +160,17 @@
   </section>  
 </main>
 <footer>
-    <p> &copy; 2021 Solveig Greene</p>
-        <p>smlgyz@umsystem.edu</p>
-</footer>
+    <ul list-style: none; decoration: none;>
+        <li>
+            <a href ="smlgyz@umsystem.edu">Solveig Greene
+            <img src="icons8-email-64.png"/>smlgyz@umsystem.edu
+            <img src="icons8-phone-64.png"/>1+888-888-8888. 
+            <a href="smlgyz@umsystem.edu">
+               <br>&copy;Solveig Lassen-Greene
+        </li>
+    </ul>
+    <a href="https://icons8.com/icon/43999/email">Email icon by Icons8
+    <a href="https://icons8.com/icon/44034/phone">Phone icon by Icons8</a>
+   </footer>
 </body>
 </html>
