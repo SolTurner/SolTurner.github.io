@@ -52,24 +52,43 @@ body {
         color: ffffff;
         padding: 20px 0;
         color: ffffff;
-        background-color: #73c4d3;
+        background-color: #73c4d3 !important;
         font-size: .9rem;
+        
     }
-    @media print{
-     
-        .header h2{
-            color: black!important;
-            margin: 1px;
+
+ 
+    @media print {
+            body {
+                color: black !important;
+                background: transparent !important;
+                box-shadow: none !important;
+                text-shadow: none !important;
+                margin: 1 !important;
+                margin-bottom:1em;
+                margin-top: 1em;
+                margin-right: 1em;
+                margin-left: 1em;
+                border: none;
+                text-align: center;
+                overflow: hidden !important;
+                font-family: 'Barlow Condensed', sans-serif; 
+                padding-top: 0px;
         }
-        .body {
-            margin:0;
-            padding: 0;
-            color: black;
-            margin: 1px;
-        }
-        .footer{
-            background-color: none;
-            color:black;
-            font-family: 'Barlow Condensed', sans-serif;
-            margin: 1px;
-        }
+            .iframe-container{
+                padding-bottom: 0;
+            }
+
+            .video {
+                display: none;
+            }
+
+            .footer{
+                margin: 0;
+                display: block;
+                color: black !important;
+                background:white !important;
+                
+            
+            }
+            }
