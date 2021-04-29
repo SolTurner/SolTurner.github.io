@@ -21,8 +21,6 @@
     .body{
         align-items: center;
         justify-content: right;
-        padding-top: 50%;
-        padding-bottom: 50%;
         margin: 0;
     }
     .title {
@@ -32,68 +30,75 @@
         padding-top: 10%;
         text-align: center;
     }
-    .paragraph{
+    .paragraph {
         line-height: 1.5;
         padding-top: 0px;
+        padding-bottom: 10px;
         text-align: center;
         padding-right: 10%;
+        list-style-type: none;
     }
+ 
     .h2 {
-        padding-top: 60px;
-        padding-bottom: 10px;
+        padding-top: 10px;
+        padding-bottom: 0px;
         text-align: center;
         color:#069;
         font-family: 'Barlow Condensed', sans-serif;
     }
 
     .wrapper {
-         margin: 0 auto;  
+         margin: 0 auto; 
+         padding-bottom: 0%; 
     }
    
     .iframe-container h2{
         color: #069;
     }
-    .resume{
-        padding-bottom: 0%;
-        padding-top: 0%;
-    }
+
 
     .video {
         padding-top: 0px;
         padding-bottom: 0%;
+    }
+    .resume{
+        padding-bottom: 0;
     }
 
     .iframe-container{
         position:relative;
         width:100%;
         overflow: hidden;
-        padding-top: 100%;
-        padding-bottom: 40%;
+        padding-top: 0%;
+        padding-bottom: 10%;
         justify-content: center;
         height: 25%;
         width: 25%;
     }
 
     .responsive-iframe{
-        position: absolute;
-        top: 940px;
+        position: absolute; 
+        top: 510px;
         left: 0;
         bottom: 0;
         right: 0;
         width: 50%;
         height: 100%;
         align-items: right;
-        padding-bottom: 100%;
+        padding-bottom: 0%;
+        padding-top: 0%;
     }
     .footer {
         text-align: center;
         color: ffffff;
-        padding: 20px 0;
+        padding: 40px 0;
         color: ffffff;
         background-color: #73c4d3;
         font-size: .9rem;
         list-style-type: none;
         position: fixed;
+        padding-bottom: 70px;
+        
 }      
     .box {
         width:100%;
@@ -101,9 +106,12 @@
         margin: 100px auto;
         background-image: url(footerbackground.jpg);
         background-size: cover;
-        text-align: center
-       
+        text-align: center;
+        transition: width 2s;
+        transition-timing-function: ease-in-out;
     }
+    
+       
 
 
      </style>
@@ -154,13 +162,13 @@
              I am currently enrolled in APEL’s mentor teacher program and plan on being certified by the summer of 2021. 
              This year, I was also accepted into the East Baton Rouge Parish Leadership program. My completion date is 
              June of 2021.</p><br>
-             <h3 style="text-indent: 1em; color: #069;">Current Degree Program:</h3>
+             <p><h3 style="text-indent: 1em; color: #069;">Current Degree Program:</h3>
              <ul class= "Programs: text-decoration: none">
                 <li>University of Missouri, School of Information Science & Learning Technologies</li>
                 <li>Education Specialist Degree in Learning Technologies and Design</li>
                 <li>Anticipated Graduation Date, May 2022</li>   
-            </ul>
-          <p></p><br>
+            </p> </ul>
+   
 
     <div class="resume">
        <a href="Lassen-GreeneResume.pdf" target="resume"><h1>My Resume</h1></a></div>
@@ -181,8 +189,6 @@
 </main>
 <footer>
    <div class="box">
-
-  
     <ul list-style: none; decoration: none; text-align: center; justify-content:center;>
         <li>
             <a href ="smlgyz@umsystem.edu">Solveig Greene
