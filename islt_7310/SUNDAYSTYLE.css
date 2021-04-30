@@ -71,12 +71,14 @@ body {
         width: 0px;
         -webkit-transition: width 0.2s linear 0s;
         transition: width 0.2s linear 0s; z-index:10;
+        
     }
     .email:hover + .bigemail{
-        width: 50px;
+        width: 80px;
+    
     }
     .phone:hover + .bigphone{
-        width: 40px;
+        width: 80px;
     }
   
 
