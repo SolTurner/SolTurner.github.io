@@ -61,21 +61,22 @@ body {
     }
     .bigemail {
         position: absolute;
-        width:0px;
+        width: 0px;
         -webkit-transition: width 0.2s linear 0s;
         transition: width 0.2s linear 0s; z-index:10;
     }
-    .phone {
+
+    .bigphone {
         position: absolute;
         width: 0px;
         -webkit-transition: width 0.2s linear 0s;
         transition: width 0.2s linear 0s; z-index:10;
     }
     .email:hover + .bigemail{
-        width: 30px;
+        width: 50px;
     }
-    .bigphone:hover + .phone{
-        width: 30px;
+    .phone:hover + .bigphone{
+        width: 40px;
     }
   
 
