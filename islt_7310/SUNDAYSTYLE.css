@@ -59,13 +59,13 @@ body {
         position: fixed;
         top: -40px;   
     }
-    .bigemail{
+    .bigemail {
         position: absolute;
         width:0px;
         -webkit-transition: width 0.2s linear 0s;
         transition: width 0.2s linear 0s; z-index:10;
     }
-    .bigphone {
+    .phone {
         position: absolute;
         width: 0px;
         -webkit-transition: width 0.2s linear 0s;
@@ -74,7 +74,7 @@ body {
     .email:hover + .bigemail{
         width: 30px;
     }
-    .phone:hover + .bigphone{
+    .bigphone:hover + .phone{
         width: 30px;
     }
   
