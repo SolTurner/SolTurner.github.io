@@ -57,13 +57,30 @@ body {
         background-color: #73c4d3 !important;
         font-size: .9rem;
         position: fixed;
-        top: -40px;
-        
+        top: -40px;   
     }
+    .bigemail{
+        position: absolute;
+        width:0px;
+        -webkit-transition: width 0.2s linear 0s;
+        transition: width 0.2s linear 0s; z-index:10;
+    }
+    .bigphone {
+        position: absolute;
+        width: 0px;
+        -webkit-transition: width 0.2s linear 0s;
+        transition: width 0.2s linear 0s; z-index:10;
+    }
+    .email:hover + .bigemail{
+        width: 30px;
+    }
+    .phone:hover + .bigphone{
+        width: 30px;
+    }
+  
 
  
     @media print {
-
 
             .body {
                 color: black !important;
@@ -100,5 +117,7 @@ body {
             .box {
                 background-image: none;
                 position: fixed;
-            
+            }
+            @page {
+                margin: 1in;
             }
