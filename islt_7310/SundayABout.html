@@ -12,20 +12,29 @@
      <link rel="shortcut icon" type="image/x-icon" href="hnet.com-image.ico">
      
      <style>
-   a { color: #069;
-    text-decoration: none;}
+
+    header{
+        list-style: none;
+    }
+
+    a { color:#069;
+    text-decoration: none;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
     .logo {
         color: #ffffff;
+        text-align: center;
         font-family:'Barlow Condensed', sans-serif;
     }
     .body{
         align-items: center;
         justify-content: right;
-        margin: 0;
+        list-style: none;
     }
     .title {
         color:#069;
-        font-family: 'Barlow Condensed', sans-serif;
         padding: 0;
         padding-top: 10%;
         text-align: center;
@@ -47,13 +56,18 @@
         font-family: 'Barlow Condensed', sans-serif;
     }
 
-    .wrapper {
-         margin: 0 auto; 
-         padding-bottom: 0%; 
+    .pic {
+        width: 100px;
+        height: auto;
+        margin-right: 50em;
+        padding-top: 3.5em;
+        position: absolute;
     }
+
    
     .iframe-container h2{
         color: #069;
+        position: relative;
     }
 
     .video {
@@ -61,9 +75,15 @@
         padding-bottom: 0%;
         width: 400;
         height: 300;
+        margin-left: 30em;
+        
+        
+    
     }
+
     .resume{
-        padding-bottom: 0;
+        padding-bottom: 2em;
+        padding-top: -5em;
     }
 
     .iframe-container{
@@ -89,6 +109,7 @@
         align-items: right;
         padding-bottom: 0%;
         padding-top: 0%;
+        list-style: none;
     }
     .footer {
         
@@ -107,16 +128,20 @@
     .box {
         width:100%;
         height: 100px;
-        margin: 100px auto;
-        background-image: url(footerbackground.jpg);
+        margin: o;
         background-size: cover;
+        text-align: center;
         top: 10px;
         bottom: 10px;
-        margin-top: 1em;
-        padding-bottom: 40px;
+        margin-top: 20px;
+        padding-bottom: 20px;
         text-align: center;
-    
+        background-color: #73c4d3;
+        list-style: none;
+        color: #069;
     }
+    
+    
 
      </style>
 </head>
@@ -146,9 +171,11 @@
      <section>
           <div class="container">   
                <div class="col"></div>
-                  <div class="col"></div>
+                  <div class="Top"></div>
                     <h2 class="title">About Me</h2>
                    <div class="col"></div>
+            <div class="pic"><img src="SOl12-17-20 faceshot-1.jpg" alt="Sol" style="width:100%"></div>
+             
                <div class="col"></div>	
          <div class="paragraph"><p>I hold a Bachelor's degree in Elementary Education (Grades 1-8) from LSU and a 
              Master's degree in Educational Leadership from Southeastern University. I currently attend the 
@@ -166,17 +193,21 @@
              I am currently enrolled in APEL’s mentor teacher program and plan on being certified by the summer of 2021. 
              This year, I was also accepted into the East Baton Rouge Parish Leadership program. My completion date is 
              June of 2021.</p><br>
+             <br>
              <p><h3 style="text-indent: 1em; color: #069;">Current Degree Program:</h3>
-             <ul class= "Programs: text-decoration: none">
+             <ul class= "Programs": text-decoration: none">
                 <li>University of Missouri, School of Information Science & Learning Technologies</li>
                 <li>Education Specialist Degree in Learning Technologies and Design</li>
                 <li>Anticipated Graduation Date, May 2022</li>   
             </p> </ul>
+            <br>
    
-
     <div class="resume">
-       <a href="Lassen-GreeneResume.pdf" target="resume"><h1>My Resume</h1></a></div>
+       <a href="Lassen-GreeneResume.pdf" target="resume"><h1>My Resume</h1>
+    <br></a></div>
     </div>   
+    
+
        <div class="iframe-container"></div>
             <h2 style= "text-align: center; color: #069; padding-top: 0px;"></h2>
          <div class="video">
@@ -191,20 +222,17 @@
 </div>
   </section>  
 </main>
-<footer>
-    <div class="box">
-    <ul list-style: none; decoration: none; text-align: center; justify-content:center;>
-        <li>
-            <a href ="smlgyz@umsystem.edu">Solveig Greene
-            <img src="icons8-email-64.png"/>smlgyz@umsystem.edu
-            <img src="icons8-phone-64.png"/>1+888-888-8888. 
-            <a href="smlgyz@umsystem.edu">
-               <br>&copy;Solveig Lassen-Greene
-        </li>
+<footer>   
+    <div class="box" id="box">
+    <ul> 
+     <li class="copyright"><a href="mailto:smlgyz@umsystem.edu"><img src= "icons8-email-64.png" class= "email" style="width:30px"id="email"></a>sgmlyz@umsystem.edu</li><br>
+     <li class="copyright"><img src= "icons8-phone-64.png" class= "phone" style="width: 30px" id="phone">1+888-888-8888</li><br>
+     <li class= "copyright">&copy;Solveig Lassen-Greene, 2021<br>
+     <a href="https://icons8.com/icon/43999/email">Email icon by Icons8
+     <a href="https://icons8.com/icon/44034/phone">Phone icon by Icons8</a>
     </ul>
-    <a href="https://icons8.com/icon/43999/email">Email icon by Icons8,
-    <a href="https://icons8.com/icon/44034/phone">Phone icon by Icons8</a>
-    </div>
+    </div>  
+
 </footer>
 
 </body>

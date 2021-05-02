@@ -19,7 +19,7 @@ nav { position: absolute;
 text-align: left;
 top: 100%;
 left: 0;
-background:white;
+background:#73c4d3;
 width: 100%;
 display: none;
 }
@@ -33,7 +33,7 @@ nav li {
     margin-left: 1em;
 }
 nav a {
-    color: #069;
+    color:#069;
     text-decoration: none;
     font-size: 1.2 rem;
 
@@ -56,7 +56,7 @@ nav a:hover{
     height: 100%;
     display: flex;
     align-items:center;
-    color: #73c4d3;
+    color: #ffffff;
 }
 .nav-toggle-label span {
     display: block;

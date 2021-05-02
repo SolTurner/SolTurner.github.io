@@ -8,7 +8,6 @@
 }
 
 
-
 body {
     font-family:'Barlow Condensed', sans-serif;
     top:-25px;
@@ -59,30 +58,22 @@ body {
         position: fixed;
         top: -40px;   
     }
-    .bigemail {
-        position: absolute;
-        width: 0px;
-        -webkit-transition: width 0.2s linear 0s;
-        transition: width 0.2s linear 0s; z-index:10;
+
+    .email {
+        transition: 1s ease-in-out;
+    }
+    .email:hover {
+        transform: scale(1.3);
     }
 
-    .bigphone {
-        position: absolute;
-        width: 0px;
-        -webkit-transition: width 0.2s linear 0s;
-        transition: width 0.2s linear 0s; z-index:10;
-        
+    .phone {
+        transition: 1s ease-in-out;
     }
-    .email:hover + .bigemail{
-        width: 80px;
-    
-    }
-    .phone:hover + .bigphone{
-        width: 80px;
+   
+    .phone:hover {
+        transform: scale(1.3);
     }
   
-
- 
     @media print {
 
             .body {
@@ -100,7 +91,6 @@ body {
                 overflow: hidden !important;
                 font-family: 'Barlow Condensed', sans-serif; 
                 padding-top: 0px;
-        
         }
             .iframe-container{
                 padding-bottom: 0;
