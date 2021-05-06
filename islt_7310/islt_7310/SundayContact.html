@@ -1,0 +1,190 @@
+
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+     <meta charset="utf-8"><title>Contact</title>
+     <meta name="viewport" content="width=device-width initial-scale=1.0">
+     <link rel="preconnect" href="https://fonts.gstatic.com">
+     <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,300;1,300&family=Nanum+Myeongjo:wght@700&family=Noto+Serif+SC:wght@700&family=Noto+Serif:wght@700&display=swap" rel="stylesheet">
+     <link rel="stylesheet" href="Sundaynav.css">
+     <link rel="stylesheet" href="SUNDAYSTYLE.css">
+     <link rel="shortcut icon" type="image/x-icon" href="hnet.com-image.ico">
+  <style>
+
+      .logo{
+          color: #ffffff;
+          text-align: center;
+          font-family:'Barlow Condensed', sans-serif;
+          font-size: 30pt;
+      }
+        .title {
+            text-align: center;
+            color:#f079dc;
+            font-size: 40pt; 
+            padding-top: 80px;
+        }
+        .container{
+        text-align: center;
+        padding-right: 2em;
+        font-size: 16pt;
+        line-height: 1.5;
+    }
+    h2
+    {
+        color: #f079dc;
+        text-align: center;
+        font-size: 40pt;
+    }
+
+    .footer {
+        color: ffffff;
+        padding: 20px 0;
+        color: ffffff;
+        background-color: #73c4d3;
+        font-size: .9rem;
+        position: fixed;
+        padding-bottom: 30px;
+        top: 18px;
+        margin-top: 3em;
+        margin-bottom: 3em;
+        }   
+
+ #icons {transition: 1s ease-in-out;
+      }
+#icons:hover {
+    transform: scale(1.3);
+      }
+ #icons1
+ {transition: 1s ease-in-out;
+      }
+    
+ #icons1:hover {
+    transform: scale(1.3);
+ }
+
+ section{
+     height:100%;
+     width:100%;
+     display:flex;
+     align-items: center;
+     justify-content: center;
+     font-family:'Barlow Condensed', sans-serif;
+     color:#069;
+     text-align: center;
+    }
+.contact{
+     width: 50%;
+     max-width: 900px;
+     margin:0 auto;
+     padding:40px;
+     background-color:rgb(229, 237, 241);
+     border-radius: 8px;
+     margin-bottom: 20px;
+     margin-top:5%;
+      }
+.form-group{ 
+    width: 100%;
+    margin-top:20px;
+    font-size: 20px;
+    }
+   
+.form-group input,
+.form-group textarea{
+      width:100%;
+      padding: 10px;
+      font-size: 18px;
+      border: 1px solid #73c4d3;
+      align-content: center;
+    }
+
+ textarea{
+     resize: vertical;
+    }
+button[type="submit"]{
+     width:100%;
+     border:none;
+     outline:none;
+     padding:20px;
+     font-size: 20px;
+     border-radius: 7px;
+     color:#069;
+     background-color:#f079dc;
+     text-align: center;
+     cursor: pointer;
+     margin-top: 10px;
+ }
+   button[type="submit"]:hover{
+    background-color: #ffffff;
+    transition: .3s ease background-color;
+   }
+
+     </style>
+</head>
+<body>
+     <header>    
+       <h1 class="logo">Solveig Greene</h1>
+      <input type= "checkbox" id="nav-toggle" class="nav-toggle">
+          <nav>
+               <ul>
+                <li><a href="SundayIndex.html">Home</a></li>
+                   <li><a href="SundayABout.html">About</a></li>
+                     <li><a href="SUNDAYLEARN.html">Learn</a>
+                      <ul class="sub">
+                           <li><a href="#">Degree</a></li>
+                               <li><a href="SundayProject2.html">Leadership</a></li>
+                          <li><a href="SundayProject3.html">Mentoring</a></li>
+                     </ul>
+                   <li><a href="SundayReflections.html">Reflections</a></li>
+                   <li><a href="#">Contact</a></li> 
+                  </ul>
+          </nav>
+          <label for="nav-toggle" class="nav-toggle-label">
+            <span>&#9776;</span> </label>
+         </header>
+    <main> 
+        <div>"col"</div>
+        <div>"col"</div>
+        <div class="new"></div>
+        <h2 class="title">Contact Me</h2>
+    <section>
+        <div class="contact">
+        <form action="mailto:smlgyz@umsystem.edu?Subject=Portfolio%20Website%20Contact" method="post" enctype="text/plain">
+
+              <div class="form-group">
+              <label for="firstname">First Name</label> 
+              <input type="text" id="firstname" name="firstname" required></div>
+           
+
+              <div class="form-group">
+                <label for="lastname">Last Name</label> 
+                <input type="text" id="lastname" name="lastname" required>
+              </div>
+
+              <div class="form-group">
+              <label for="email">Email Address</label>
+              <input type="email" name="email" id="email" required> 
+              </div>
+
+            <div class="form-group">
+              <label for="message">Message</label>
+              <textarea name="message" id="message"  rows="7"></textarea></div>
+
+            
+              <button type="submit">Submit</button></form>
+       
+            </div>
+    
+      </section> 
+    </main>
+    <footer>
+        <div class="footer" id="footer">
+            <ul>
+          <li class="copyright" ><img src="icons8-phone-64.png" alt="phone" style="width:30px" id="icons">888.888.8888</li>
+          <li class="copyright"><a href="mailto:smlgyz@umsystem.edu"><img src="icons8-email-64.png" alt="email" style="width:30px" id="icons1"></a> sgmlyz@umsystem.edu</li>
+          
+          <li class="copyright">&copy; 2021 Solveig Lassen-Greene</li> 
+         </ul>
+            </div>    
+ </footer>
+   </body>
+   </html>
