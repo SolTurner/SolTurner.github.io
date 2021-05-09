@@ -157,6 +157,4 @@ list-style: none;
                 background-image: none;
                 position: fixed;
             }
-            @page {
-                margin: 1in;
-            }
+        
