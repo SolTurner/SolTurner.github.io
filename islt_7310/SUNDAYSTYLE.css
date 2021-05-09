@@ -26,7 +26,6 @@ body {
 .container {
     margin: 0rem 0rem 10rem 5rem;
     display:grid;
-
     gap: 25px;
     padding-top: 10px;  
 }
@@ -50,8 +49,7 @@ justify-content: center;
 margin-top: auto;
 margin-bottom: auto;
 list-style: none;
- }
-
+}
 
 @media (max-width:640px) {
     .conatiner {
@@ -71,7 +69,6 @@ list-style: none;
     .iframe-container{
         width: 280px;
     }
-
 
     .email {
         transition: 1s ease-in-out;
@@ -124,8 +121,6 @@ list-style: none;
         margin-right: auto;
     }
     
-     
-
     @media print {
 
             .body {
@@ -156,8 +151,7 @@ list-style: none;
                 margin: 0;
                 display: block;
                 color: black !important;
-                background:white !important;
-             
+                background:white !important; 
             }
             .box {
                 background-image: none;
