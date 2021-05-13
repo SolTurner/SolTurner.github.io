@@ -37,10 +37,10 @@ nav a {
     text-decoration: none; 
 }
 nav a:hover{
-    color: #069;
+    color: rgb(233, 118, 204);
 }
 .nav-toggle:checked ~ nav {
-    display: block;
+    display: none;
 }
 .nav-toggle {
     display: none;
@@ -73,7 +73,7 @@ header {
     grid-column: 1/1;}
 
 nav{
-    position: unset;
+position: unset;
 text-align: unset;
 top: unset;
 left: unset;
@@ -100,15 +100,18 @@ nav ul li a {
     padding: 0.8rem 1.3rem;
 }
 nav ul li ul{
-    display:none;
+    display: none;
     position: absolute;
     top: 45px;
     left: -4rem;
-    background-color: #ffffff;
-    padding: 0rem;
+    background-color:#73c4d3;
+    padding-left: 1rem;
+    padding-right: 2rem;
 }
 nav ul li ul li a {
     padding: 0.5rem;
+    padding-bottom: 1rem;
+    text-align: center;
 }
 nav ul li:hover ul {
     display: block;
@@ -121,3 +124,10 @@ nav ul li ul li a:hover {
     background-color: #73c4d3;
     text-align: center;}
 
+    @media screen and (max-width: 640px) {
+        footer li a{
+            display: none;
+        }
+        .sub{ display: none;} 
+    }
+ 

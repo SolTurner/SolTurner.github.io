@@ -29,6 +29,14 @@ body {
     gap: 25px;
     padding-top: 10px;  
 }
+.one{
+    background-color: #bfe4eb;}
+
+    .two{
+    background-color: #73c4d3;}
+
+    .three{
+    background-color: #bfe4eb;}
 
 footer {
   font-size: 1rem;
@@ -59,17 +67,17 @@ list-style: none;
         grid-template-rows: 0fr 1fr;
         gap: 1px;
         color: #069;
-    } }
+    } 
+    .iframe-container{
+        width: 280px;
+    }}
 
     .conatiner >* {
         padding-top: 10px;
         padding-left: 10px;
         padding-right: 10px;
     }
-    .iframe-container{
-        width: 280px;
-    }
-
+ 
     .email {
         transition: 1s ease-in-out;
     }
@@ -86,12 +94,12 @@ list-style: none;
     }
   
     table{
-        width: 40%;
+        width: 60%;
         /*border-spacing: 0px;*/
       }
       
       th{
-        text-align: left;
+        text-align: center;
       }
 
       caption{
@@ -160,5 +168,4 @@ list-style: none;
             @page{
                 margin: 1in;
             }
-        }
-        
+       
